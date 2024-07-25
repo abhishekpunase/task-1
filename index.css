@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#div1{
+    position: absolute;
+    z-index: 999;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 50%;
+    left: 1%;
+    top: 9%;
+    background-color: rgb(246, 206, 74);
+    border-radius: 10px;
+}
+.btn{
+    padding: 11px 22px blue;
+}
